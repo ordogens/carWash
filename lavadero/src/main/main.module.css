@@ -83,7 +83,7 @@
   & .car {
     width: 50vw;
     height: 84vh;
-    background-color: blue;
+
     display: flex;
     justify-content: center;
     align-items: center;

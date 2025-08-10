@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 2.7rem;
     /* background-color: red; */
 
     & h1 {
@@ -41,14 +41,25 @@
         width: 10rem;
         height: 2.5rem;
         border: none;
+        transition: all .2s ease-in-out;
+        &:hover {
+          cursor: pointer;
+          background-color: #1447e6;
+        }
       }
 
       & .blanco {
         border-radius: 8px;
         font-size: 18px;
+        background-color: white;
         border: 1px solid #e7dfdf;
         width: 10rem;
         height: 2.5rem;
+        transition: all .2s ease-in-out;
+         &:hover {
+          cursor: pointer;
+          background-color: #f5f5f5;
+        }
       }
     }
 

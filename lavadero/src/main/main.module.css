@@ -5,11 +5,12 @@
 
   & .wash {
     width: 50vw;
-    height: 92vh;
+    height: 84vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    /* background-color: red; */
 
     & h1 {
       font-size: 4rem;
@@ -70,7 +71,7 @@
 
   & .car {
     width: 50vw;
-    height: 92vh;
+    height: 84vh;
     background-color: blue;
     display: flex;
     justify-content: center;

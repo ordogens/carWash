@@ -1,0 +1,65 @@
+.main {
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+
+  & .wash {
+    width: 50vw;
+    height: 92vh;
+
+    & h1 {
+      font-size: 4rem;
+      width: 30vw;
+      /* background-color: red; */
+    }
+
+    & .parrafo {
+      width: 30vw;
+      font-size: 20px;
+      /* background-color: blue; */
+    }
+
+    & .buttons{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 3rem;
+
+        & .azul{
+            background-color: #155dfc;
+            border-radius: 8px;
+            color: white;
+            font-size: 18px;
+            width: 10rem;
+            height: 2.5rem;
+            border: none;
+        }
+
+        & .blanco{
+            border-radius: 8px;
+            font-size: 18px;
+            border: 1px solid #e7dfdf;
+            width: 10rem;
+            height: 2.5rem;
+            
+        }
+    }
+
+    & .lavados{
+        background-color: red;
+        display: flex;
+
+        & .uno{
+            border: 1px solid #000;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+  }
+
+  & .car {
+    width: 50vw;
+    height: 92vh;
+    background-color: blue;
+  }
+}

@@ -1,7 +1,6 @@
 import styles from "./main.module.css";
 import { Sparkles,Droplets, Car } from "lucide-react";
 import CarCleaners from '../assets/images/carCleaners.jpg'
-import { Sparkles, Droplets } from "lucide-react";
 
 export const Main = () => {
   return (

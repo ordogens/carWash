@@ -1,6 +1,6 @@
 import styles from "./main.module.css";
+import { Sparkles,Droplets, Car } from "lucide-react";
 import CarCleaners from '../assets/images/carCleaners.jpg'
-import { Sparkles, Droplets } from "lucide-react";
 
 export const Main = () => {
   return (
@@ -43,8 +43,12 @@ export const Main = () => {
           <img className={styles.carImageContainer} src={CarCleaners} alt="" />
         </picture>
 
-        <div>
-          
+        <div className={styles.badgeCar}>
+          <Car style={{ color: "#155dfc" }} size={40} />
+          <div className={styles.paragraphs}>
+            <p>500+</p>
+            <p>Vehículos lavados</p>
+          </div>
         </div>
       </article>
     </section>

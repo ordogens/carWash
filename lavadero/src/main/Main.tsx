@@ -1,6 +1,6 @@
 import styles from "./main.module.css";
-import { Sparkles,Droplets } from "lucide-react";
 import CarCleaners from '../assets/images/carCleaners.jpg'
+import { Sparkles, Droplets } from "lucide-react";
 
 export const Main = () => {
   return (
@@ -16,22 +16,26 @@ export const Main = () => {
           especializados
         </p>
         <article className={styles.buttons}>
-            <button className={styles.azul}>ver servicios</button>
-            <button className={styles.blanco}>Contactar ahora</button>
+          <button className={styles.azul}>ver servicios</button>
+          <button className={styles.blanco}>Contactar ahora</button>
         </article>
 
         <article className={styles.lavados}>
-            <div className={styles.uno}><Sparkles size={30} style={{ color: "#155dfc" }} />
-            <h3>Lavado Ecológico</h3>
-            <p>Productos biodegradables</p>
-            </div>
-            <div className={styles.uno}><Droplets size={30} style={{ color: "#155dfc" }} />
-            <h3>Resultado Garantizado</h3>
-            <p>100% satisfacción</p>
-            </div>
-
+          <div className={styles.uno}>
+            <Sparkles size={40} style={{ color: "#155dfc" }} />
+            <article className={styles.textos}>
+              <h3>Lavado Ecológico</h3>
+              <p>Productos biodegradables</p>
+            </article>
+          </div>
+          <div className={styles.uno}>
+            <Droplets size={40} style={{ color: "#155dfc" }} />
+            <article className={styles.textos}>
+              <h3>Resultado Garantizado</h3>
+              <p>100% satisfacción</p>
+            </article>
+          </div>
         </article>
-
       </article>
 
       <article className={styles.car}>

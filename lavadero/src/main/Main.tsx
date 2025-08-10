@@ -1,4 +1,5 @@
 import styles from "./main.module.css";
+import CarCleaners from '../assets/images/carCleaners.jpg'
 import { Sparkles, Droplets } from "lucide-react";
 
 export const Main = () => {
@@ -38,7 +39,13 @@ export const Main = () => {
       </article>
 
       <article className={styles.car}>
-        <h1>nada</h1>
+        <picture>
+          <img className={styles.carImageContainer} src={CarCleaners} alt="" />
+        </picture>
+
+        <div>
+          
+        </div>
       </article>
     </section>
   );

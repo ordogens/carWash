@@ -72,5 +72,13 @@
     width: 50vw;
     height: 92vh;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .carImageContainer {
+      border-radius: 1rem;
+      width: 40rem;
+    }
   }
 }
